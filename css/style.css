@@ -138,14 +138,20 @@ a{
     color: white;text-transform: uppercase;
    
 }
-.btn-group{
-    text-align: center;
-    margin-left: 45%;
+.banner-btn{
+    background-color: #82ae46;
+    color: white;
+    padding: 8px 12px;
+    font-size: 16px;
     font-family: 'poppins', sans-serif;
+    border-radius: 35px;
+    border: 2px solid #82ae46;
+    display: inline-block;
     transition: 0.5s;
-    background-color: #099A97;
+    margin-left: 45%;
+
 }
-.btn-group:hover{
+.banner-btn:hover{
     background-color: transparent;
     transition: 0.5s;
 }

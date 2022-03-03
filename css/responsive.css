@@ -75,8 +75,21 @@
     
   }
   .banner-btn{
-    margin-right: 20px;
-  }
+    background-color: #82ae46;
+    color: white;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    border-radius: 35px;
+    border: 2px solid #82ae46;
+    display: inline-block;
+    transition: 0.5s;
+
+}
+.banner-btn:hover{
+    background-color: transparent;
+    transition: 0.5s;
+}
   
   
   .f-item-galary{
