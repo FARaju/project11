@@ -1,0 +1,147 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  for all mobile devices
+*/
+
+@media (max-width: 560px) {
+  .container{
+    width: 90%;
+  }
+  .navbar{
+    display: none;
+
+  }
+  .first, .middle, .last{
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .top-header{
+    padding: 32px 0px;
+  }
+  .banner-content h1{
+    font-size: 44px;
+
+  }
+  .banner-content p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 70px;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    
+  }
+  .banner-btn{
+    margin-right: 20px;
+  }
+  
+  
+  .f-item-galary{
+    grid-template-columns: auto;
+    
+  }
+  
+  .f-item{
+    margin-bottom: 32px;
+  }
+  
+  .product{
+    grid-template-columns: auto;
+  }
+  
+  .footer-content{
+    flex-direction: column;
+  }
+  .footer-1{
+    margin-bottom: 32px;
+  }
+  footer{
+    text-align: center;
+  }
+  .d-flex{
+    display: block;
+  }
+
+.footer-1, .footer-2, .footer-3,.footer-4{
+  border-bottom: 1px solid#eee;
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+}
+.second{
+  background-position: inherit;
+
+}
+.features{
+  padding-top: 100px;
+  padding-bottom: 0px;
+}
+.icon{
+  grid-template-columns: auto;
+  text-align: center;
+  
+}
+.n-content{
+  flex-direction: column;
+}
+.left-content{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-control{
+  margin-left: 5px;
+}
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+/* @media (min-width: 320px) and (max-width: 480px) { */
+  
+ 
+  
